@@ -32,7 +32,7 @@ const Row = (props) => {
                 <Text style={styles.secondaryText}>{props.dataItem.fullName}</Text>
             </View>
 
-            <View>
+            <View style={styles.currencyView}>
                 <Text style={styles.text}>{props.dataItem.currency}</Text>
                 <Text style={styles.secondaryText}>MMK</Text>
             </View>
