@@ -14,11 +14,11 @@ const styles = StyleSheet.create({
     }
 });
 
-const LatestStatus = () => {
+const LatestStatus = (props) => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Latest updated:</Text>
-            <Text style={styles.text}>30/12/2020 03:00 AM</Text>
+            <Text style={styles.text}>{props.bank}</Text>
+            <Text style={styles.text}>{props.dateTime}</Text>
         </View>
     );
 }

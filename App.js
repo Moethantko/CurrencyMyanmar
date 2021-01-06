@@ -10,7 +10,6 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import Home from './screens/Home';
 import CalculateScreen from './screens/Calculate';
 
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -18,7 +17,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
 });
-
 
 const Tab = createBottomTabNavigator();
 
