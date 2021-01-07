@@ -3,12 +3,13 @@ import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: '#273E47',
-        padding: 26,
+        backgroundColor: '#5d8263',
+        paddingVertical: 25,
+        paddingHorizontal: 13,
         marginTop: 23,
     },
     text: {
-        color: '#3DFAFF',
+        color: 'gold',
         fontSize: 20,
     }
 });
@@ -16,7 +17,7 @@ const styles = StyleSheet.create({
 const Header = () => {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Currency Exchange</Text>
+            <Text style={styles.text}>Exchange Kyat</Text>
         </View>
     );
 }

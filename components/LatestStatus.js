@@ -5,11 +5,11 @@ const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
         justifyContent: 'space-between',
-        backgroundColor: '#090f12',
+        backgroundColor: '#59af66',
         padding: 5,
     },
     text: {
-        color: '#3DFAFF',
+        color: 'white',
         fontSize: 10,
     }
 });

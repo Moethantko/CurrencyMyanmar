@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, Text, View, TouchableOpacity } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
+
 
 const styles = StyleSheet.create({
     row: {
@@ -34,7 +35,7 @@ const Row = (props) => {
 
             <View style={styles.currencyView}>
                 <Text style={styles.text}>{props.dataItem.currency}</Text>
-                <Text style={styles.secondaryText}>MMK</Text>
+                <Text style={styles.secondaryText}>Kyat</Text>
             </View>
             
         </View>
